@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=+5VDC Pin=J97-1
+Removed Pin From Net: NetName=GND Pin=J97-2
+Added Pin To Net: NetName=GND Pin=J97-1
+Added Pin To Net: NetName=+5VDC Pin=J97-2
+Added Room: Name=ESP32
+Added Room: Name=KSZ8851SNL
+Added Room: Name=POWER

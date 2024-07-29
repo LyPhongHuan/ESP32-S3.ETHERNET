@@ -1,0 +1,16 @@
+Removed Pin From Net: NetName=+3.3VDC Pin=CON1-1
+Removed Pin From Net: NetName=GND Pin=CON1-2
+Removed Pin From Net: NetName=TxD Pin=CON1-3
+Removed Pin From Net: NetName=RxD Pin=CON1-4
+Removed Pin From Net: NetName=nRESET Pin=CON1-5
+Removed Pin From Net: NetName=BOOT Pin=CON1-6
+Added Component: Designator=CONN3(JST-PH2.0_6P)
+Added Pin To Net: NetName=+3.3VDC Pin=CONN3-1
+Added Pin To Net: NetName=GND Pin=CONN3-2
+Added Pin To Net: NetName=TxD Pin=CONN3-3
+Added Pin To Net: NetName=RxD Pin=CONN3-4
+Added Pin To Net: NetName=nRESET Pin=CONN3-5
+Added Pin To Net: NetName=BOOT Pin=CONN3-6
+Added Pin To Net: NetName=GND Pin=CONN3-7
+Added Pin To Net: NetName=GND Pin=CONN3-7
+Added Member To Class: ClassName=ESP32 Member=Component CONN3 CONNECTOR 6P

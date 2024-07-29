@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=VDD Pin=JP1-2
+Removed Pin From Net: NetName=+1.8VDC Pin=JP2-1
+Removed Pin From Net: NetName=VDD Pin=JP2-2
+Removed Member From Class: ClassName=KSZ8851SNL Member=JP1
+Removed Member From Class: ClassName=KSZ8851SNL Member=JP2
+Change Component Comment : Designator=L1 Old Comment=0.82u New Comment=1.2u
+Change Component Comment : Designator=L2 Old Comment=1.8u New Comment=0.82u
+Change Component Comment : Designator=R15 Old Comment=100n New Comment=0R
+Change Component Designator: OldDesignator=CON? NewDesignator=CON1
+Added Component: Designator=R34(RES-SMD-0805)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Component: Designator=R35(RES-SMD-0805)
+Add component (AddParameter): Name = "Class"; Value = "Passive"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Generic Components"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "08/06/2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Hobart Technology Centre"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDD Pin=R34-2
+Added Pin To Net: NetName=+1.8VDC Pin=R35-1
+Added Pin To Net: NetName=VDD Pin=R35-2
+Change Net Name : Old Net Name=NetCONN1_5 New Net Name=USB_P
+Change Net Name : Old Net Name=NetCONN1_6 New Net Name=USB_N
+Added Differential Pair: Name=USB
+Added Member To Class: ClassName=KSZ8851SNL Member=Component R34 0R
+Added Member To Class: ClassName=KSZ8851SNL Member=Component R35 0R
